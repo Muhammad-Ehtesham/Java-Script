@@ -95,3 +95,28 @@
 // document.write("Estimated Maximum Age: "+expectedAge+"<br>");
 // document.write("Amount of Snakes per Day"+Q+"<br>");
 // document.write("“You will need"+((expectedAge-age)*365*Q)+" "+snake+"to last you until the ripe old age of "+expectedAge);
+
+
+// --------------CHAPTER 6-9----------------//
+
+// --------------Question 1
+// var a=10;
+// document.write("<h3>Result:</h3><br>");
+// document.write("The value of a is: "+a+"<br>");
+// document.write("--------------------------------------<br><br>");
+
+// ++a;
+// document.write("The value of ++a is: "+a+"<br>");
+// document.write("Now the value of a is: "+a+"<br><br>");
+
+// a++;
+// document.write("The value of a++ is: "+a+"<br>");
+// document.write("Now the value of a is: "+a+"<br><br>");
+
+// --a;
+// document.write("The value of --a is: "+a+"<br>");
+// document.write("Now the value of a is: "+a+"<br><br>");
+
+// a--;
+// document.write("The value of --a is: "+a+"<br>");
+// document.write("Now the value of a is: "+a+"<br><br>");
