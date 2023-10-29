@@ -122,15 +122,48 @@
 // document.write("Now the value of a is: "+a+"<br><br>");
 
 // --------------Question 2
-var a=2,b=1,result=0;
+// var a=2,b=1,result=0;
 
-document.write("a is: "+a+"<br>b is: "+b);
-// result=--a;
-// document.write("<br> Result is= "+result+"<br>")
-// result=--a - --b;
+// document.write("a is: "+a+"<br>b is: "+b);
+// // result=--a;
+// // document.write("<br> Result is= "+result+"<br>")
+// // result=--a - --b;
+// // document.write("<br> Result is= "+result+"<br>");
+// // result=--a - --b + ++b;
+// // document.write("<br> Result is= "+result+"<br>");
+// result=--a - --b + ++b + b;
 // document.write("<br> Result is= "+result+"<br>");
-// result=--a - --b + ++b;
-// document.write("<br> Result is= "+result+"<br>");
-result=--a - --b + ++b + b;
-document.write("<br> Result is= "+result+"<br>");
 
+// --------------Question 3
+// var username=prompt("Enter your Name: ");
+// alert("Hello, "+username+"! Welcome to our website.");
+
+// --------------Question 4/5
+// var table=+prompt("Table of:");
+
+// if(table===null || table === 0){
+//     document.write(" 1 x 5 ="+(5*1)+"<br>");
+//     document.write(" 2 x 5 ="+(5*2)+"<br>");
+//     document.write(" 3 x 5 ="+(5*3)+"<br>");
+//     document.write(" 4 x 5 ="+(5*4)+"<br>");
+//     document.write(" 5 x 5 ="+(5*5)+"<br>");
+//     document.write(" 6 x 5 ="+(5*6)+"<br>");
+//     document.write(" 7 x 5 ="+(5*7)+"<br>");
+//     document.write(" 8 x 5 ="+(5*8)+"<br>");
+//     document.write(" 9 x 5 ="+(5*9)+"<br>");
+//     document.write("10 x 5 ="+(5*10)+"<br>");
+// }
+// else{
+//     document.write(" 1 x "+table+" = "+(table*1)+"<br>");
+//     document.write(" 2 x "+table+" = "+(table*2)+"<br>");
+//     document.write(" 3 x "+table+" = "+(table*3)+"<br>");
+//     document.write(" 4 x "+table+" = "+(table*4)+"<br>");
+//     document.write(" 5 x "+table+" = "+(table*5)+"<br>");
+//     document.write(" 6 x "+table+" = "+(table*6)+"<br>");
+//     document.write(" 7 x "+table+" = "+(table*7)+"<br>");
+//     document.write(" 8 x "+table+" = "+(table*8)+"<br>");
+//     document.write(" 9 x "+table+" = "+(table*9)+"<br>");
+//     document.write("10 x "+table+" = "+(table*10)+"<br>");
+// }
+
+// --------------Question 6
