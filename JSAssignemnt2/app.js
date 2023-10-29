@@ -105,18 +105,32 @@
 // document.write("The value of a is: "+a+"<br>");
 // document.write("--------------------------------------<br><br>");
 
-// ++a;
-// document.write("The value of ++a is: "+a+"<br>");
+
+// document.write("The value of ++a is: "+(++a)+"<br>");
 // document.write("Now the value of a is: "+a+"<br><br>");
 
-// a++;
-// document.write("The value of a++ is: "+a+"<br>");
+
+// document.write("The value of a++ is: "+(a++)+"<br>");
 // document.write("Now the value of a is: "+a+"<br><br>");
 
-// --a;
-// document.write("The value of --a is: "+a+"<br>");
+
+// document.write("The value of --a is: "+(--a)+"<br>");
 // document.write("Now the value of a is: "+a+"<br><br>");
 
-// a--;
-// document.write("The value of --a is: "+a+"<br>");
+
+// document.write("The value of --a is: "+(a--)+"<br>");
 // document.write("Now the value of a is: "+a+"<br><br>");
+
+// --------------Question 2
+var a=2,b=1,result=0;
+
+document.write("a is: "+a+"<br>b is: "+b);
+// result=--a;
+// document.write("<br> Result is= "+result+"<br>")
+// result=--a - --b;
+// document.write("<br> Result is= "+result+"<br>");
+// result=--a - --b + ++b;
+// document.write("<br> Result is= "+result+"<br>");
+result=--a - --b + ++b + b;
+document.write("<br> Result is= "+result+"<br>");
+
