@@ -71,4 +71,41 @@
 // var qwe=["My","name","is","Ehtesham"];
 // document.write(qwe.join(" "));
 
+// --- Question 13 ---
+// var num=[];
+// num.push(10);
+// document.write("Array: "+num.join(" , ")+"<br>");
+// num.push(20);
+// document.write("Array: "+num.join(" , ")+"<br>");
+// num.push(30);
+// document.write("Array: "+num.join(" , ")+"<br>");
+// num.push(40);
+// document.write("Array: "+num.join(" , ")+"<br>");
+// var fo=num.shift();
+// document.write("OUT: "+fo+"<br>Array: "+num.join(" , ")+"<br>");
+// fo=num.shift();
+// document.write("OUT: "+fo+"<br>Array: "+num.join(" , ")+"<br>");
+// fo=num.shift();
+// document.write("OUT: "+fo+"<br>Array: "+num.join(" , ")+"<br>");
+// fo=num.shift();
+// document.write("OUT: "+fo+"<br>Array: "+num.join(" , ")+"<br>");
+
+// --- Question 14 ---
+// var num=[];
+// num.push(10);
+// document.write("Array: "+num.join(" , ")+"<br>");
+// num.push(20);
+// document.write("Array: "+num.join(" , ")+"<br>");
+// num.push(30);
+// document.write("Array: "+num.join(" , ")+"<br>");
+// num.push(40);
+// document.write("Array: "+num.join(" , ")+"<br>");
+// var fo=num.pop();
+// document.write("OUT: "+fo+"<br>Array: "+num.join(" , ")+"<br>");
+// fo=num.pop();
+// document.write("OUT: "+fo+"<br>Array: "+num.join(" , ")+"<br>");
+// fo=num.pop();
+// document.write("OUT: "+fo+"<br>Array: "+num.join(" , ")+"<br>");
+// fo=num.pop();
+// document.write("OUT: "+fo+"<br>Array: "+num.join(" , ")+"<br>");
 
