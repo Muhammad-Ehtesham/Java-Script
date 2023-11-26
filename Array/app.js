@@ -67,6 +67,8 @@
 // document.write("Cities List: <br>"+cities.join(" , ")+"<br>");
 // document.write("<br>Selected cities List: <br>"+selectedcities.join(" , ")+"<br>");
 
-
+// --- Question 12 --- 
+// var qwe=["My","name","is","Ehtesham"];
+// document.write(qwe.join(" "));
 
 
