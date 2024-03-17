@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <title>Post Box</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>    
+    <div class="post-box">
+        <div class="nameing">
+            <img src="images/postimg.jpg" alt="poster">
+            ANONYMOUS
+        </div>
+      <div class="font-select">
+        <label for="fontSelect"><i class="fa-solid fa-font"></i></label>
+        <select id="fontSelect" onchange="changeFont()">
+          <option value="Arial, sans-serif">Arial</option>
+          <option value="Verdana, sans-serif">Verdana</option>
+          <option value="Georgia, serif">Georgia</option>
+          <option value="Tahoma, sans-serif">Tahoma</option>
+        </select>
+      </div>
+      <div class="font-size-select">
+        <label for="fontSizeSelect"><i class="fa-solid fa-arrows-up-down"></i></label>
+        <select id="fontSizeSelect" onchange="changefontSize()">
+            <option value="12px">12px</option>
+            <option value="14px">14px</option>
+            <option value="16px">16px</option>
+            <option value="18px">18px</option>
+        </select>
+    </div>
+      <div class="color-select">
+        <label for="colorSelect"><i class="fa-solid fa-palette"></i></label>
+        <select id="colorSelect" onchange="changeBackgroundColor()">
+          <option value="#ffffff">White</option>
+          <option value="#f2f2f2">Light Grey</option>
+          <option value="#dcdcdc">Dark Grey</option>
+          <option value="#ffcccb">Pink</option>
+          <option value="#add8e6">Light Blue</option>
+        </select>
+      </div>
+      <textarea
+        id="postContent"
+        placeholder="Write your post here..."
+      ></textarea>
+      <button onclick="submitPost()">Post</button>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
