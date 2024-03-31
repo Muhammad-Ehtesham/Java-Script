@@ -1,0 +1,32 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgba(167, 138, 42, 0.9);
+  text-align: center;
+  height: 100%;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  border: solid black 2px;
+  background-color: rgb(198 160 36 / 90%);
+}
+
+textarea {
+  font-size: 12px;
+  background-color: hsl(46deg 75.11% 45.74% / 84%);
+}
+
+button {
+  background-color: transparent;
+  height: 30px;
+  width: 75px;
+  border-radius: 7px;
+}
