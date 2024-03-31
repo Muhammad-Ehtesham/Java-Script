@@ -10,12 +10,12 @@
     <title>Post Box</title>
     <link rel="stylesheet" type="text/css" href="style.css" />
   </head>
-  <body>    
+  <body>
     <div class="post-box">
-        <div class="nameing">
-            <img src="images/postimg.jpg" alt="poster">
-            ANONYMOUS
-        </div>
+      <div class="nameing">
+        <img src="images/postimg.jpg" alt="poster" />
+        ANONYMOUS
+      </div>
       <div class="font-select">
         <label for="fontSelect"><i class="fa-solid fa-font"></i></label>
         <select id="fontSelect" onchange="changeFont()">
@@ -26,14 +26,16 @@
         </select>
       </div>
       <div class="font-size-select">
-        <label for="fontSizeSelect"><i class="fa-solid fa-arrows-up-down"></i></label>
+        <label for="fontSizeSelect"
+          ><i class="fa-solid fa-arrows-up-down"></i
+        ></label>
         <select id="fontSizeSelect" onchange="changefontSize()">
-            <option value="12px">12px</option>
-            <option value="14px">14px</option>
-            <option value="16px">16px</option>
-            <option value="18px">18px</option>
+          <option value="12px">12px</option>
+          <option value="14px">14px</option>
+          <option value="16px">16px</option>
+          <option value="18px">18px</option>
         </select>
-    </div>
+      </div>
       <div class="color-select">
         <label for="colorSelect"><i class="fa-solid fa-palette"></i></label>
         <select id="colorSelect" onchange="changeBackgroundColor()">
@@ -49,6 +51,10 @@
         placeholder="Write your post here..."
       ></textarea>
       <button onclick="submitPost()">Post</button>
+      <div class="mode">
+        <button><i class="fa-regular fa-sun"></i></button>
+        <button><i class="fa-regular fa-moon"></i></button>        
+      </div>
     </div>
     <script src="app.js"></script>
   </body>

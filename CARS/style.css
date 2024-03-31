@@ -1,0 +1,20 @@
+.black{
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: black;
+    border: 1px solid black;
+}
+.White{
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: white;
+    border: 1px solid black;
+}.blue{
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: blue;
+    border: 1px solid black;
+}

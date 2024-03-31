@@ -47,3 +47,15 @@ border-radius: 15px;
 .font-size-select{
     margin: 5px;
 }
+
+.mode{
+    flex: auto;
+}
+
+.mode button{
+    background-color: transparent;
+    margin: 10px 0px;
+    color: black;
+    border: solid 2px;
+    border-color: black;
+}
