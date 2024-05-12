@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow: hidden;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+/* Main Section CSS for the card making */
+.main {
+  width: 650px;
+  height: 220px;
+  border: solid rgba(60, 64, 67, 0.3) 1px;
+  border-radius: 7px;
+}
+
+/* Section 2 where buttons for Stop watch and Timmer are */
+.sec1 {
+  background-color: rgb(241, 241, 241);
+  height: 40px;
+}
+.sec1 button {
+  background-color: transparent;
+  border: none;
+  width: 48%;
+  height: 40px;
+  font-size: 17px;
+}
+
+/* Section 2 for Timmer */
+
+.sec2 {
+  height: 140px;
+  width: 100%;
+  padding: 0px 30px;
+  border: solid rgba(60, 64, 67, 0.3) 1px;
+  font-size: 45px;
+  font-weight: lighter;
+  display: flex;
+  align-items: center;
+}
+
+/* Section 3 for Start and Reset btn */
+
+.sec3 {
+  background-color: rgb(241, 241, 241);
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.sec3 button {
+  background-color: transparent;
+  border: solid rgba(60, 64, 67, 0.3) 1px;
+  height: 29px;
+  width: 72px;
+  margin: 5px;
+}
+
+.sec3 .start-btn {
+  background-color: #1a73e8;
+  color: white;
+}
+
+.sec3 .reset-btn{
+  color: #1a73e8 ;
+}

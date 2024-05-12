@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Timer & Stop Watch</title>
+  </head>
+  <body>
+    <div class="main">
+      <div class="sec1">
+        <button onclick="toggleMode('timer')">Timer</button>
+        <button onclick="toggleMode('stopwatch')">Stop Watch</button>
+      </div>
+      <div class="sec2" id="display_area">
+        <h1 id="timer_display">60 s</h1>
+      </div>
+      <div class="sec3">
+        <button onclick="startTimer()" class="start-btn">Start</button>
+        <button onclick="resetTimer()" class="reset-btn">Reset</button>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
