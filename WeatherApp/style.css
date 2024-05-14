@@ -7,27 +7,48 @@
 }
 
 body{
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     flex-direction: column;
-}
+    background-image: url("images/skyday.avif");
+    background-size: 200vh;
+    background-repeat: no-repeat;
+} 
 
-.main_card{
+.my_card{
+    padding: 15px;
     width: 75%;
     height: 80%;
-    border: 3px solid black;
     border-radius: 5px;
-    background-color: bisque;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-.top_sec{
+.top_sec{    
     width: 100%;
     height: 40%;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
     display: flex;
 }
 .sec_temp{
-
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    width: 30%;
+    padding: 20px
 }
+
+.sec_temp p {
+    font-size: 30px;
+}
+
+.wether_icon{
+    width: 35%;
+    height: 35%;
+}
+
+.sec_dis{
+    padding: 20px
+}
+
+
